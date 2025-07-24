@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space",
+      "author": "Black Forest Labs, Stephen Batifol, Andreas Blattmann, Frederic Boesel, Saksham Consul, Cyril Diagne, Tim Dockhorn, Jack English, Zion English, Patrick Esser, Sumith Kulal, Kyle Lacey, Yam Levi, Cheng Li, Dominik Lorenz, Jonas Müller, Dustin Podell, Robin Rombach, Harry Saini, Axel Sauer, Luke Smith",
+      "code": "https://github.com/black-forest-labs/flux",
+      "paper": "https://arxiv.org/abs/2506.15742",
+      "page": "https://bfl.ai/announcements/flux-1-kontext-dev",
+      "tags": [
+        "Image to Image"
+      ],
+      "widget": "readme"
+    },
+    "upload": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://tost.ai/api/jobs/upload",
+      "property": "input_image"
+    },
+    "input_image": {
+      "type": "string",
+      "description": "Input Image URL",
+      "widget": "textarea"
+    },
+    "prompt": {
+      "type": "string",
+      "description": "Prompt",
+      "widget": "hidden"
+    },
+    "guidance_scale": {
+      "type": "integer",
+      "description": "Guidance Scale",
+      "widget": "hidden"
+    },
+    "seed": {
+      "type": "integer",
+      "description": "Seed (if 0 random)"
+    },
+    "num_inference_steps": {
+      "type": "integer",
+      "description": "Num Inference Steps",
+      "widget": "hidden"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=input#.png",
+      "image2": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=input#.png",
+      "image3": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=output#.png",
+      "image4": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=output#.png",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
