@@ -46,10 +46,10 @@
     },
     "example": {
       "type": "string",
-      "image1": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=input#.png",
-      "image2": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=input#.png",
-      "image3": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=output#.png",
-      "image4": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=output#.png",
+      "image1": "https://s3.tost.ai/static/7345f70e-2766-4d6e-bd7b-979e3c99e9e2.png",
+      "image2": "https://s3.tost.ai/static/7345f70e-2766-4d6e-bd7b-979e3c99e9e3.png",
+      "image3": "https://s3.tost.ai/static/80312866-7ff8-4da3-98d2-0ccd743502c4.jpg",
+      "image4": "https://s3.tost.ai/static/80312866-7ff8-4da3-98d2-0ccd743502c5.jpg",
       "widget": "example"
     }
   },
