@@ -27,13 +27,11 @@
     },
     "prompt": {
       "type": "string",
-      "description": "Prompt",
-      "widget": "hidden"
+      "description": "Prompt"
     },
     "guidance_scale": {
       "type": "integer",
-      "description": "Guidance Scale",
-      "widget": "hidden"
+      "description": "Guidance Scale"
     },
     "seed": {
       "type": "integer",
